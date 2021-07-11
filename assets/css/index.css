@@ -12,7 +12,7 @@ header .logo {
 .uk-navbar-nav>li>a {
     color: rgb(70, 70, 70);
 }
-.footer{
+/* .footer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,6 +60,28 @@ header .logo {
     color: rgb(100, 100, 100) !important;
 	box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.267);
 
+} */
+
+.inner .major{
+    color: rgb(70, 70, 70);
+    border-bottom: solid 2px rgba(70, 70, 70, 0.274);
+}
+.inner p{
+    color: rgb(70, 70, 70);
+}
+.inner .field label{
+    color: rgb(70, 70, 70);
 }
 
-
+ul.contact li{
+    color: rgb(70, 70, 70);
+}
+ul.contact li a{
+    color: rgb(70, 70, 70);
+}
+.copyright .logo{
+    width: 15%;
+}
+.copyright .logo .logo-copy{
+    width: 80%;
+}
