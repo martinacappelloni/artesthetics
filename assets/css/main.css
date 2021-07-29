@@ -2422,7 +2422,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 36%;
 		}
 
 			.image.left img, .image.right img {
@@ -2684,7 +2684,7 @@ input, select, textarea {
 
 			ul.contact li:before {
 				border-radius: 100%;
-				border: solid 2px rgba(255, 255, 255, 0.125);
+				border: solid 2px rgba(70, 70, 70, 0.205);
 				display: inline-block;
 				font-size: 0.8em;
 				height: 2.5em;
@@ -4039,7 +4039,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .inner {
-		padding: 5em 0 3em 0 ;
+		padding: 5em 0 1em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;

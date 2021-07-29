@@ -62,11 +62,11 @@ header .logo {
 
 } */
 
-.inner .major{
+#footer .inner .major{
     color: rgb(70, 70, 70);
     border-bottom: solid 2px rgba(70, 70, 70, 0.274);
 }
-.inner p{
+#footer .inner p{
     color: rgb(70, 70, 70);
 }
 .inner .field label{
@@ -80,7 +80,7 @@ ul.contact li a{
     color: rgb(70, 70, 70);
 }
 .copyright .logo{
-    width: 15%;
+    width: 10%;
 }
 .copyright .logo .logo-copy{
     width: 80%;
