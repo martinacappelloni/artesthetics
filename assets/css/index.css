@@ -12,56 +12,6 @@ header .logo {
 .uk-navbar-nav>li>a {
     color: rgb(70, 70, 70);
 }
-/* .footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.footer .logo{
-    width: 20%;
-}
-.footer .logo a{
-    display: flex;
-    justify-content: center;
-}
-.footer .content{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-.redes {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.redes li{
-    padding-right: 10px;
-    border-right: 1px solid black;
-}
-.redes li:last-child{
-    border-right: none;
-}
-.redes li a{
-    color: black;
-    text-decoration: none;
-    font-family: Raleway, Helvetica, sans-serif;
-}
-.direccion p{
-    color: black;
-    font-family: Raleway, Helvetica, sans-serif;
-}
-.actions{
-    margin-top: 20px;
-    margin-bottom: 0;
-}
-.actions .boton{
-    color: rgb(100, 100, 100) !important;
-	box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.267);
-
-} */
-
 #footer .inner .major{
     color: rgb(70, 70, 70);
     border-bottom: solid 2px rgba(70, 70, 70, 0.274);
@@ -84,4 +34,69 @@ ul.contact li a{
 }
 .copyright .logo .logo-copy{
     width: 80%;
+}
+.abdomen{
+    background-image: url("../../images/abdomen.JPG");
+}
+.brazos{
+    background-image: url("../../images/pagina_Brazos_y_muslos.jpeg");
+}
+.cara{
+    background-image: url("../../images/pagina_cara.jpeg");
+}
+.cirugia{
+    background-image: url("../../images/pagina_trayectoria.jpeg");
+}
+.gluteos{
+    background-image: url("../../images/pagina_gluteos.jpeg");
+}
+.hilos{
+    background-image: url("../../images/hilos.jpg");
+}
+.index{
+    background-image: url("../../images/fondo4.jpg");
+}
+.intima{
+    background-image: url("../../images/pagina_intima.jpeg");
+}
+.laser{
+    background-image: url("../../images/Laser_de_CO2.jpeg");
+}
+.mamas{
+    background-image: url("../../images/mamas.jpg");
+}
+.medicina{
+    background-image: url("../../images/IMG_8959.JPG");
+}
+.mesolifting{
+    background-image: url("../../images/Mesolifting.jpeg");
+}
+.plasma{
+    background-image: url("../../images/dermapen.JPG");
+}
+.profesionales{
+    background-image: url("../../images/fondo4.jpg");
+}
+.rellenos{
+    background-image: url("../../images/labios.jpg");
+}
+.reparadora{
+    background-image: url("../../images/fondo4.jpg");
+}
+.rinomodelacion{
+    background-image: url("../../images/nariz.jpg");
+}
+.skinbooster{
+    background-image: url("../../images/skinbooster.jpg");
+}
+.toxina{
+    background-image: url("../../images/botox.png");
+}
+
+.blanco{
+    color: white !important;
+}
+input .blanco{
+    color: white !important;
+
 }

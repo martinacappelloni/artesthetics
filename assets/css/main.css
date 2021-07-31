@@ -2865,7 +2865,7 @@ input, select, textarea {
 		border-radius: 5px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px rgba(70, 70, 70, 0.185);
-		color: rgb(70, 70, 70) !important;
+		color: rgb(70, 70, 70) ;
 		cursor: pointer;
 		display: inline-block;
 		font-family: Raleway, Helvetica, sans-serif;
