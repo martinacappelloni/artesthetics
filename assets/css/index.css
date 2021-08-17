@@ -12,6 +12,9 @@ header .logo {
 .uk-navbar-nav>li>a {
     color: rgb(70, 70, 70);
 }
+body .uk-navbar-dropdown{
+    width: 260px;
+}
 #footer .inner .major{
     color: rgb(70, 70, 70);
     border-bottom: solid 2px rgba(70, 70, 70, 0.274);
@@ -30,10 +33,10 @@ ul.contact li a{
     color: rgb(70, 70, 70);
 }
 .copyright .logo{
-    width: 10%;
+    width: 5em;
 }
 .copyright .logo .logo-copy{
-    width: 80%;
+    width: 4em;
 }
 .abdomen{
     background-image: url("../../images/abdomen.JPG");
@@ -99,4 +102,27 @@ ul.contact li a{
 input .blanco{
     color: white !important;
 
+}
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 769px){
+    .mobile{
+        display: unset;
+    }
+    .desktop{
+        display: none;
+    }
+    header .logo {
+        width: 5.5em;
+        margin: 10px 0 10px;
+    }
+    .logo .logo-img {
+        width: 100%;
+        margin: 0;
+    }
+    .fa-bars{
+        color: rgb(70, 70, 70);
+    }
 }

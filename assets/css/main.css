@@ -100,7 +100,6 @@ input, select, textarea {
 
 	body {
 		background-color: rgb(60, 60, 60);
-		background-image: url("../../images/fondo2.jpg");
 		background-repeat: no-repeat;
 		background-size: cover, cover;
 		background-attachment: fixed,fixed;
@@ -3120,7 +3119,7 @@ input, select, textarea {
 			#header nav a {
 				border: 0;
 				display: inline-block;
-				padding: 0 1em;
+				padding: 0 0.8em;
 			}
 
 				#header nav a:before {
@@ -3177,15 +3176,17 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2.75em;
+				height: 5.75em;
 				line-height: 2.75em;
 			}
 
 				#header nav {
-					top: 0;
+					top: 25px;
 					right: 0;
 					height: inherit;
 					line-height: inherit;
+					font-size: 1.6em;
+
 				}
 
 					#header nav a {
@@ -3379,8 +3380,13 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
+		height: 38em;
 		padding: 16em 0 4.75em 0 ;
-		background-size: cover;
+		margin-bottom: -6.5em;
+		background-repeat: no-repeat;
+		background-size: cover, cover;
+		background-attachment: fixed,fixed;
+		background-position: center,center;
 
 	}
 
@@ -3470,14 +3476,14 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: url("../../images/fondo2.jpg");
-				background-size: auto,
- cover;
-				background-position: center,
- center;
+				background-attachment: fixed,fixed;
+				background-size: 200%;
+				background-position: top;
 				margin-bottom: -6.5em;
 			}
+			/* .inner{
+				display: none;
+			} */
 
 		}
 
@@ -3497,8 +3503,9 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 4.25em 2em ;
+				padding: 8em 2em 4.25em 2em ;
 				margin-bottom: -2.5em;
+				height: 24em;
 			}
 
 				#banner .logo {
@@ -4037,9 +4044,18 @@ input, select, textarea {
 		}
 
 /* Footer */
+	#footer {
+		background-color: rgb(246, 226, 206);
+		background-size: auto,
+	cover;
+		background-position: center,
+	center;
+		margin-top: -6.5em;
+		padding-top: 6.5em;
+	}
 
 	#footer .inner {
-		padding: 5em 0 1em 0 ;
+		padding: 1em 0 1em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4103,8 +4119,8 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-color: rgb(246, 226, 206);
+			/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
 			background-size: auto,
  cover;
 			background-position: center,
@@ -4160,7 +4176,7 @@ input, select, textarea {
 				}
 
 				#footer .inner .contact {
-					margin: 0 0 3em 0;
+					margin: 0 0 2em 0;
 				}
 
 	}
