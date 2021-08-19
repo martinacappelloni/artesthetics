@@ -22,8 +22,13 @@ body .uk-navbar-dropdown{
 #footer .inner p{
     color: rgb(70, 70, 70);
 }
+
 .inner .field label{
     color: rgb(70, 70, 70);
+}
+
+.inner .form{
+    margin-top: -2em;
 }
 
 ul.contact li{
@@ -39,7 +44,7 @@ ul.contact li a{
     width: 4em;
 }
 .abdomen{
-    background-image: url("../../images/abdomen.JPG");
+    background-image: url("../../images/abdomen.jpg");
 }
 .brazos{
     background-image: url("../../images/pagina_Brazos_y_muslos.jpeg");
@@ -48,7 +53,7 @@ ul.contact li a{
     background-image: url("../../images/pagina_cara.jpeg");
 }
 .cirugia{
-    background-image: url("../../images/pagina_trayectoria.jpeg");
+    background-image: url("../../images/pagina_cirugia_estetica.jpeg");
 }
 .gluteos{
     background-image: url("../../images/pagina_gluteos.jpeg");
@@ -56,9 +61,15 @@ ul.contact li a{
 .hilos{
     background-image: url("../../images/hilos.jpg");
 }
-.index{
+/* .index{
     background-image: url("../../images/fondo4.jpg");
+} */
+.index{
+    background-image: url("../../images/fondo.jpg");
 }
+/* .index{
+    background-image: url("../../images/stock-photo-beautiful-girl-with-clean-fresh-skin-white-background-166580003_02.jpeg");
+} */
 .intima{
     background-image: url("../../images/pagina_intima.jpeg");
 }
@@ -78,7 +89,7 @@ ul.contact li a{
     background-image: url("../../images/dermapen.JPG");
 }
 .profesionales{
-    background-image: url("../../images/fondo4.jpg");
+    background-image: url("../../images/pagina_trayectoria.jpeg");
 }
 .rellenos{
     background-image: url("../../images/labios.jpg");
@@ -87,7 +98,7 @@ ul.contact li a{
     background-image: url("../../images/fondo4.jpg");
 }
 .rinomodelacion{
-    background-image: url("../../images/nariz.jpg");
+    background-image: url("../../images/fondo.jpg");
 }
 .skinbooster{
     background-image: url("../../images/skinbooster.jpg");
@@ -96,15 +107,19 @@ ul.contact li a{
     background-image: url("../../images/botox.png");
 }
 
+.light{
+    color: white !important;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.171) !important;
+}
 .blanco{
     color: white !important;
 }
-input .blanco{
-    color: white !important;
 
-}
 .mobile{
     display: none;
+}
+.map{
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, 0.192);
 }
 
 @media screen and (max-width: 769px){

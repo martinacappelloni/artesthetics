@@ -2527,6 +2527,7 @@ input, select, textarea {
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+			margin: 0 0 2em 0;
 		}
 
 		ul.actions.special {
@@ -3477,13 +3478,11 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-attachment: fixed,fixed;
-				background-size: 200%;
+				background-size: 150%;
 				background-position: top;
 				margin-bottom: -6.5em;
 			}
-			/* .inner{
-				display: none;
-			} */
+			
 
 		}
 
@@ -3496,6 +3495,7 @@ input, select, textarea {
 
 				#banner .inner {
 					width: 100%;
+					padding: 1.5em 0 0 0;
 				}
 
 		}
@@ -4083,6 +4083,7 @@ input, select, textarea {
 
 		#footer .inner .contact {
 			width: calc(50% - 1.5em);
+			margin: 1em 0 0 0;
 		}
 
 		#footer .inner .copyright {
